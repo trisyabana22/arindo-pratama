@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,64 +12,71 @@
     <title>PT Arindo Pratama</title>
   </head>
   <body class="font-poppins">
-    <header class="to-indigo-6 relative bg-gradient-to-r from-blue-500 to-indigo-600 xl:h-[100vh]">
-      <!-- <div class="fixed right-7 bottom-8 w-96 bg-white p-4 shadow-lg">
-        <ul>
-          <li>1.Background masih dengan css</li>
-        </ul>
-      </div> -->
-      <div class="flex flex-wrap items-center md:py-5">
-        <div class="header absolute top-0 flex w-full flex-wrap items-center bg-gradient-to-r from-blue-500 to-indigo-600 px-6 transition-all duration-200 md:px-20">
-          <div class="w-1/2 py-3 sm:w-1/2 lg:w-[25%]">
+    <!-- Header Start -->
+    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent bg-gradient-to-r from-blue-500 to-indigo-600">
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4 py-4 md:py-2">
             <img src="dist/img/logo.png" class="w-24 md:w-32" alt="" />
           </div>
-          <div class="w-1/2 py-3 lg:hidden">
-            <div class="flex justify-end">
-              <a href="#" class="text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="fixed top-0 bottom-0 left-0 hidden w-full bg-red-500 md:hidden lg:static lg:flex lg:w-[75%] lg:flex-wrap lg:justify-end lg:bg-transparent">
-            <div class="flex justify-between md:hidden">
-              <span class="py-3 px-6 text-white">Menu</span>
-              <span class="py-3 px-6">
-                <a href="" class="text-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-            <ul class="md:text-md pt-20 text-base text-white sm:text-sm md:static md:flex md:flex-wrap md:justify-end md:bg-transparent md:pt-0">
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Beranda</a></li>
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Informasi</a></li>
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Layanan</a></li>
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Syarat & Ketentuan</a></li>
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Pendaftaran</a></li>
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Download</a></li>
-              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Kontak</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="w-full items-center px-6 py-24 transition-all duration-200 sm:flex sm:flex-wrap md:px-20">
-          <div class="w-full sm:w-[60%]">
-            <h1 class="font-sans text-3xl font-semibold leading-10 text-white sm:text-2xl md:text-4xl lg:text-5xl lg:leading-[4rem] xl:text-6xl xl:leading-[5rem]">Tentang PT Arindo Pratama</h1>
-            <span class="block pt-10">
-              <p class="md:text-md text-sm font-light text-white lg:text-base">Kami adalah perusahaan yang bergerak di bidang Pembayaran Digital atau PPOB</p>
-            </span>
-            <span class="inline-block pt-10">
-              <a href="#" class="glass-button inline-block rounded-full px-4 py-2 md:text-sm lg:text-base xl:text-xl">Get Started</a>
-            </span>
-          </div>
-          <div class="h-[300px] w-full sm:w-[40%] md:h-[350px] lg:h-[550px]">
-            <div style="background-image: url('dist/img/hero.png')" class="h-full w-full bg-contain bg-center bg-no-repeat"></div>
+          <div class="flex items-center px-4 py-4 md:py-2">
+            <button id="hamburger" name="hamburger" type="submit" class="absolute right-4 block lg:hidden">
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            </button>
+            <nav id="nav-menu" class="dark:bg-dark absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Informasi</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Layanan</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Syarat & Ketentuan</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Pendaftaran</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Download</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="glass mx-4 flex py-2 text-sm text-zinc-600 dark:text-white lg:text-white">Kontak</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
     </header>
+    <!-- Header Ends -->
+
+    <section class="bg-gradient-to-r from-blue-500 to-indigo-600 pt-24">
+      <div class="container">
+        <div class="flex">
+          <div class="w-full items-center px-4 transition-all duration-200 sm:flex sm:flex-wrap">
+            <div class="w-full pr-6 sm:w-[60%]">
+              <h1 class="font-sans text-3xl font-semibold leading-10 text-white sm:text-2xl md:text-4xl lg:text-5xl lg:leading-[4rem] xl:text-6xl xl:leading-[5rem]">Tentang PT Arindo Pratama</h1>
+              <span class="block pt-10">
+                <p class="md:text-md text-sm font-light text-white lg:text-base">Kami adalah perusahaan yang bergerak di bidang Pembayaran Digital atau PPOB</p>
+              </span>
+              <span class="inline-block pt-10">
+                <a href="#" class="glass-button inline-block rounded-full px-4 py-2 md:text-sm lg:text-base xl:text-xl">Get Started</a>
+              </span>
+            </div>
+            <div class="h-[300px] w-full sm:w-[40%] md:h-[350px] lg:h-[550px]">
+              <div style="background-image: url('dist/img/hero.png')" class="h-full w-full bg-contain bg-center bg-no-repeat"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-white">
       <div class="py-5 md:px-20">
         <div class="flex flex-wrap">
@@ -581,6 +588,11 @@
         </div>
       </div>
     </footer>
+    <!-- Button Back To Top Start -->
+    <a href="#" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-indigo-600 p-4 hover:animate-pulse" id="to-top">
+      <span class="mt-2 block h-3 w-3 rotate-45 border-t-2 border-l-2"></span>
+    </a>
+    <!-- Button Back To Top End -->
     <script src="src/js/script.js"></script>
   </body>
 </html>
