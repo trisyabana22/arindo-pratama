@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <link href="src/custom.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <title>PT Arindo Pratama</title>
+  </head>
+  <body class="font-poppins">
+    <header class="to-indigo-6 relative bg-gradient-to-r from-blue-500 to-indigo-600 xl:h-[100vh]">
+      <!-- <div class="fixed right-7 bottom-8 w-96 bg-white p-4 shadow-lg">
+        <ul>
+          <li>1.Background masih dengan css</li>
+        </ul>
+      </div> -->
+      <div class="flex flex-wrap items-center md:py-5">
+        <div class="header absolute top-0 flex w-full flex-wrap items-center bg-gradient-to-r from-blue-500 to-indigo-600 transition-all duration-200 md:px-20">
+          <div class="w-1/2 px-6 py-3 sm:w-1/2 lg:w-[25%]">
+            <img src="dist/img/logo.png" class="w-24 md:w-32" alt="" />
+          </div>
+          <div class="w-1/2 px-6 py-3 lg:hidden">
+            <div class="flex justify-end">
+              <a href="#" class="text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="fixed top-0 bottom-0 left-0 hidden w-full bg-red-500 md:hidden lg:static lg:flex lg:w-[75%] lg:flex-wrap lg:justify-end lg:bg-transparent">
+            <div class="flex justify-between md:hidden">
+              <span class="py-3 px-6 text-white">Menu</span>
+              <span class="py-3 px-6">
+                <a href="" class="text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </a>
+              </span>
+            </div>
+            <ul class="md:text-md pt-20 text-base text-white sm:text-sm md:static md:flex md:flex-wrap md:justify-end md:bg-transparent md:pt-0">
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Beranda</a></li>
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Informasi</a></li>
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Layanan</a></li>
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Syarat & Ketentuan</a></li>
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Pendaftaran</a></li>
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Download</a></li>
+              <li class="px-6 py-3 hover:bg-blue-800 md:py-2 md:px-3"><a href="#">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full items-center transition-all duration-200 sm:flex sm:flex-wrap">
+          <div class="w-full px-6 py-5 sm:w-[60%] md:px-20">
+            <h1 class="font-sans text-3xl font-semibold leading-10 text-white sm:text-2xl md:text-4xl lg:text-5xl lg:leading-[4rem]">Tentang PT Arindo Pratama</h1>
+            <span class="block pt-10">
+              <p class="md:text-md text-sm font-light text-white lg:text-base">Kami adalah perusahaan yang bergerak di bidang Pembayaran Digital atau PPOB</p>
+            </span>
+            <span class="inline-block pt-10">
+              <a href="#" class="glass-button inline-block rounded-full px-4 py-2 md:text-sm lg:text-base">Get Started</a>
+            </span>
+          </div>
+          <div class="h-[300px] w-full px-6 py-5 sm:w-[40%] md:h-[350px] md:px-20 lg:h-[550px]">
+            <div style="background-image: url('dist/img/hero.png')" class="h-full w-full bg-contain bg-center bg-no-repeat"></div>
+          </div>
+          <!-- <div class="w-full px-6 py-5 sm:w-1/2"> -->
+          <!-- <div style="background-image: url('dist/img/hero.png')" class="bottom-1 h-[27rem] w-full bg-[length:350px] bg-center bg-no-repeat md:bg-right lg:h-[30rem] lg:bg-[length:400px] sm:lg:bg-[length:300px]"></div> -->
+          <!-- <div style="background-image: url('dist/img/hero.png')" class="h-[60vh] w-full bg-contain bg-center bg-no-repeat md:h-[300px] md:bg-right lg:h-[60vh]"></div>
+          </div> -->
+        </div>
+      </div>
+    </header>
+    <section class="bg-white">
+      <div class="py-5 md:px-20">
+        <div class="flex flex-wrap">
+          <div class="mx-auto w-full py-2 px-6">
+            <h2 class="p-4 text-center text-base font-bold text-indigo-500 md:text-xl">Bisnis Terbaik Untuk Anda</h2>
+          </div>
+          <div class="w-full py-2 px-6">
+            <div class="flex flex-wrap justify-center">
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 md:w-1/3 lg:w-1/4">
+                <div class="flex h-16 w-16 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/icon/kebutuhan.svg" class="h-full w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Kebutuhan pasti yang tidak bisa dihindari</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 md:w-1/3 lg:w-1/4">
+                <div class="flex h-16 w-16 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/icon/card.svg" class="h-full w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Memiliki market yang sangat besar</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 md:w-1/3 lg:w-1/4">
+                <div class="flex h-16 w-16 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/icon/pandemi.svg" class="h-full w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Tanpa mengenal krisis meskipun pandemi</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 md:w-1/3 lg:w-1/4">
+                <div class="flex h-16 w-16 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/icon/target.svg" class="h-full w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Tanpa target terikat karena milik sendiri</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 md:w-1/3 lg:w-1/4">
+                <div class="flex h-16 w-16 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/icon/order.svg" class="h-full w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Repeat order tinggi</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 md:w-1/3 lg:w-1/4">
+                <div class="flex h-16 w-16 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/icon/bisnis.svg" class="h-full w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Bukan bisnis musiman</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-indigo-50">
+      <div class="py-5 md:px-20">
+        <div class="flex flex-wrap">
+          <div class="mx-auto w-full py-2 px-6">
+            <h2 class="p-4 text-center text-base font-bold text-indigo-500 md:text-xl">Kami menawarkan manfaat dan keunggulan lebih agar setiap transaksi anda lebih bernilai.</h2>
+          </div>
+          <div class="mx-auto w-full py-2 px-6">
+            <div class="flex flex-wrap justify-center">
+              <div class="w-[75%] p-2 py-4 sm:w-1/3 md:flex md:gap-2">
+                <div class="relative top-5 flex justify-center md:left-6 md:top-0 md:items-center">
+                  <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500 p-2 text-base font-semibold text-white md:h-10 md:w-8 md:rounded-none md:rounded-tr-lg md:rounded-bl-lg md:text-lg">1</span>
+                </div>
+                <div class="rounded-md bg-white p-4 py-6 text-center md:pl-7 md:text-left">
+                  <h3 class="py-1 text-sm font-semibold md:text-base">Mudah dan Efisien</h3>
+                  <hr />
+                  <p class="py-2 text-xs font-light text-zinc-600 md:text-sm">Cukup dengan satu aplikasi dalam satu genggaman, seluruh tagihan dapat dilakukan secara cepat</p>
+                </div>
+              </div>
+              <div class="w-[75%] p-2 py-4 sm:w-1/3 md:flex md:gap-2">
+                <div class="relative top-5 flex justify-center md:left-6 md:top-0 md:items-center">
+                  <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500 p-2 text-base font-semibold text-white md:h-10 md:w-8 md:rounded-none md:rounded-tr-lg md:rounded-bl-lg md:text-lg">2</span>
+                </div>
+                <div class="rounded-md bg-white p-4 py-6 text-center md:pl-7 md:text-left">
+                  <h3 class="py-1 text-sm font-semibold md:text-base">Modal Kecil tanpa minimal deposit</h3>
+                  <hr />
+                  <p class="py-2 text-xs font-light text-zinc-600 md:text-sm">Fitur lengkap dan modal sangat kecil, tanpa minimal deposit, tanpa saldo mengendap. sehingga saldi diaplikasi dapat digunakan seluruhnya</p>
+                </div>
+              </div>
+              <div class="w-[75%] p-2 py-4 sm:w-1/3 md:flex md:gap-2">
+                <div class="relative top-5 flex justify-center md:left-6 md:top-0 md:items-center">
+                  <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500 p-2 text-base font-semibold text-white md:h-10 md:w-8 md:rounded-none md:rounded-tr-lg md:rounded-bl-lg md:text-lg">3</span>
+                </div>
+                <div class="rounded-md bg-white p-4 py-6 text-center md:pl-7 md:text-left">
+                  <h3 class="py-1 text-sm font-semibold md:text-base">Semakin banyak transaksi semakin untung</h3>
+                  <hr />
+                  <p class="py-2 text-xs font-light text-zinc-600 md:text-sm">Nikmati semua fitur PPOB Arindo dan raih keuntungan hingga jutaan rupiah setiap bulannya.</p>
+                </div>
+              </div>
+
+              <!-- <div class="w-[75%] p-2 sm:w-1/3">
+                <div class="relative top-5 flex justify-center">
+                  <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500 p-2 text-base font-semibold text-white md:text-lg">2</span>
+                </div>
+                <div class="rounded-md bg-white p-4 py-6 text-center">
+                  <h3 class="py-1 text-sm font-semibold md:text-base">Modal Kecil tanpa minimal deposit</h3>
+                  <hr />
+                  <p class="py-2 text-xs font-light text-zinc-600 md:text-sm">Fitur lengkap dan modal sangat kecil, tanpa minimal deposit, tanpa saldo mengendap. sehingga saldi diaplikasi dapat digunakan seluruhnya</p>
+                </div>
+              </div>
+              <div class="w-[75%] p-2 sm:w-1/3">
+                <div class="relative top-5 flex justify-center">
+                  <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500 p-2 text-base font-semibold text-white md:text-lg">3</span>
+                </div>
+                <div class="rounded-md bg-white p-4 py-6 text-center">
+                  <h3 class="py-1 text-sm font-semibold md:text-base">Semakin banyak transaksi semakin untung</h3>
+                  <hr />
+                  <p class="py-2 text-xs font-light text-zinc-600 md:text-sm">Nikmati semua fitur PPOB Arindo dan raih keuntungan hingga jutaan rupiah setiap bulannya.</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="py-5 md:px-20">
+        <div class="flex flex-wrap items-center">
+          <div class="w-full py-2 px-6 sm:order-2 sm:w-[60%]">
+            <h1 class="font-sans text-3xl font-semibold leading-10 text-indigo-500 sm:text-2xl md:text-4xl lg:text-5xl lg:leading-[4rem]">Cukup satu aplikasi, untuk semua transaksi</h1>
+            <span class="block pt-10">
+              <p class="md:text-md pb-4 text-sm font-light text-zinc-600 lg:text-base">Nikmati kemudahan pembayaran melalui aplikasi PPOB Arindo atau <span class="font-semibold"> ARINDO PAY </span> Bayar semua tagihan dalam genggaman anda</p>
+              <p class="md:text-md pb-4 text-sm font-light text-zinc-600 lg:text-base">Download aplikasinya gratis di <span class="font-semibold">Google Play Store</span> dan <span class="font-semibold">Apple App Store.</span></p>
+            </span>
+            <span class="inline-block pt-10">
+              <span class="mr-4 inline-block w-[35%]">
+                <a href="">
+                  <img src="dist/img/btn/play-store.png" class="w-32" alt="" />
+                </a>
+              </span>
+              <span class="inline-block w-[35%]">
+                <a href="">
+                  <img src="dist/img/btn/app-store.png" class="w-32" alt="" />
+                </a>
+              </span>
+            </span>
+          </div>
+          <div class="relative h-[400px] w-full px-6 py-5 sm:order-1 sm:w-[40%] md:h-[450px] lg:h-[500px]">
+            <div style="background-image: url('dist/img/bg-hp.png')" class="absolute top-16 left-0 right-0 h-full w-full bg-contain bg-center bg-no-repeat"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative z-30 bg-indigo-50">
+      <div class="py-5 md:px-20">
+        <div class="flex flex-wrap items-center">
+          <div class="w-full py-2 px-6 sm:w-[40%]">
+            <h1 class="font-sans text-3xl font-semibold leading-10 text-indigo-500 sm:text-2xl md:text-4xl lg:text-5xl lg:leading-[4rem]">Aplikasi versi desktop</h1>
+            <span class="block pt-10">
+              <p class="md:text-md pb-4 text-sm font-light text-zinc-600 lg:text-base">Siap berbisnis dirumah anda menggunakan aplikasi desktop <span class="font-semibold"> PPOB Arindo </span> sudah terbukti handal, tangguh, terpercaya dan terlengkap sejak 2008.</p>
+              <p class="md:text-md pb-4 text-sm font-light text-zinc-600 lg:text-base">Download aplikasinya dibawah ini :</p>
+            </span>
+            <span class="inline-block pt-10">
+              <a href="" class="inline-block rounded-full bg-indigo-600 px-4 py-2 text-white transition-all duration-200 hover:bg-indigo-700 md:text-sm lg:text-base">Download</a>
+            </span>
+          </div>
+          <div class="h-[400px] w-full px-6 py-5 sm:order-1 sm:w-[60%] md:h-[450px] lg:h-[500px]">
+            <div style="background-image: url('dist/img/bg-laptop.png')" class="h-full w-full bg-contain bg-center bg-no-repeat"></div>
+          </div>
+          <!-- <div class="w-full px-6 py-5 sm:w-[60%]">
+            <div style="background-image: url('dist/img/bg-laptop.png')" class="h-[60vh] w-full bg-contain bg-center bg-no-repeat md:h-[300px] lg:h-[60vh] lg:bg-right"></div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="py-5 md:px-20">
+        <div class="flex flex-wrap">
+          <div class="mx-auto w-full py-2 px-6">
+            <h2 class="p-4 text-center text-base font-bold text-indigo-500 md:text-2xl">Fitur - Fitur PPOB Arindo</h2>
+          </div>
+          <div class="w-full py-2 px-6">
+            <div class="flex flex-wrap justify-center">
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/pln.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">PLN (Postpaid, Prepaid dan Nontaglis)</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/logo-telkom-indonesia-transparent-background 1.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Telepon, Indihome, Speedy, Telkom Vision dan Kartu HALLO</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/logo-pdam-1000x721 1.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Rekening PDAM</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/BPJS-Kesehatan.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">BPJS Kesehatan</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/BPJS-Ketenagakerjaan.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">BPJS Ketenagakerjaan</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/NicePng_rainbow-six-siege-sledge_6350825 1.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Pulsa all operator dan quota internet</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/topup-opo.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Top Up Saldo</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/etoll.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Top Up E-Toll</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/tv.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">TV Berbayar</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/tiket.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Tiket Pesawat</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/kereta-api.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Tiket kereta api</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/pembayaran-jaserindo.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">SLO Jaserindo</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/bank.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Transfer bank apa saja dan transfer antar mitra</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/pgn.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Pembayaran Gas</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/pertagas.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Pembelian Pertagas</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/pbb.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Pajak bumi dan bangunan</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/e-samsat.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">E-Samsat Jatim</p>
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-col items-center py-2 sm:w-1/3 lg:w-1/4">
+                <div class="flex h-20 w-20 items-center rounded-full border border-indigo-500 p-4">
+                  <img src="dist/img/fitur/kredit.png" class="w-full" alt="" />
+                </div>
+                <div class="p-2 text-center">
+                  <p class="text-light text-xs text-zinc-600 sm:text-base">Multi Finance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-indigo-50">
+      <div class="py-5">
+        <div class="flex flex-wrap">
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/sdr.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/nura.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/radio.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/switch.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/kompor.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/hawa.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/panel.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/printer.png" class="w-full" alt="" />
+            </a>
+          </div>
+          <div class="w-1/2 sm:w-1/3">
+            <a href="#">
+              <img src="dist/img/produk/smart-meter.png" class="w-full" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="py-5 md:px-20">
+        <div class="flex flex-wrap">
+          <div class="mx-auto w-full py-2 px-6">
+            <h2 class="p-4 text-center text-base font-bold text-indigo-500 md:text-2xl">Support Bank</h2>
+          </div>
+          <div class="w-full py-2 px-6">
+            <div class="flex flex-wrap justify-center">
+              <div class="w-full p-2 py-4 text-center md:w-1/4">
+                <a href="" class="inline-block py-2">
+                  <img src="dist/img/bank/BNI.png" alt="" class="w-full" />
+                </a>
+                <h3 class="text-base font-semibold text-zinc-500">499 499 499 8</h3>
+                <p class="text-sm text-zinc-600">An PT ARINDO PRATAMA</p>
+              </div>
+              <div class="w-full p-2 py-4 text-center md:w-1/4">
+                <a href="" class="inline-block py-2">
+                  <img src="dist/img/bank/mandiri.png" alt="" class="w-full" />
+                </a>
+                <h3 class="text-base font-semibold text-zinc-500">130 002 201 660 7</h3>
+                <p class="text-sm text-zinc-600">An PT ARINDO PRATAMA</p>
+              </div>
+              <div class="w-full p-2 py-4 text-center md:w-1/4">
+                <a href="" class="inline-block py-2">
+                  <img src="dist/img/bank/BRI.png" alt="" class="w-full" />
+                </a>
+                <h3 class="text-base font-semibold text-zinc-500">000 501 002 310 300</h3>
+                <p class="text-sm text-zinc-600">An PT ARINDO PRATAMA</p>
+              </div>
+              <div class="w-full p-2 py-4 text-center md:w-1/4">
+                <a href="" class="inline-block py-2">
+                  <img src="dist/img/bank/bali.png" alt="" class="w-full" />
+                </a>
+                <h3 class="text-base font-semibold text-zinc-500">0100 111 014 412</h3>
+                <p class="text-sm text-zinc-600">An PT ARINDO PRATAMA</p>
+              </div>
+              <div class="w-full p-2 py-4 text-center md:w-1/4">
+                <a href="" class="inline-block py-2">
+                  <img src="dist/img/bank/BSI.png" alt="" class="w-full" />
+                </a>
+                <h3 class="text-base font-semibold text-zinc-500">8800 220 166</h3>
+                <p class="text-sm text-zinc-600">An PT ARINDO PRATAMA</p>
+              </div>
+              <div class="w-full p-2 py-4 text-center md:w-1/4">
+                <a href="" class="inline-block py-2">
+                  <img src="dist/img/bank/BCA.png" alt="" class="w-full" />
+                </a>
+                <h3 class="text-base font-semibold text-zinc-500">8090 990 315</h3>
+                <p class="text-sm text-zinc-600">An PT ARINDO PRATAMA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white md:px-20">
+      <div class="py-5">
+        <div class="flex flex-wrap items-center justify-center">
+          <div class="w-full">
+            <div class="flex flex-wrap">
+              <div class="w-full px-6 py-4 sm:w-1/2 md:w-1/4">
+                <p class="py-1 text-lg font-semibold">Kantor Pusat</p>
+                <ul>
+                  <li class="py-1 text-sm font-light">Jl. Arhanudri No. 20 Batununggal, Bandung 40266</li>
+                  <li class="flex items-center gap-2 py-2 text-sm font-light">
+                    <span><img src="dist/img/icon-footer/telp.png" class="h-5 w-5 sm:h-6 sm:w-6" alt="" /></span>
+                    <span> (022) 30005000</span>
+                  </li>
+                  <li class="flex items-center gap-2 py-1 text-sm font-light">
+                    <span><img src="dist/img/icon-footer/sms.png" class="h-5 w-5 sm:h-6 sm:w-6" alt="" /></span>
+                    <span> 0811 2159 99</span>
+                  </li>
+                  <li class="flex items-center gap-2 py-1 text-sm font-light">
+                    <span><img src="dist/img/icon-footer/mail.png" class="h-5 w-5 sm:h-6 sm:w-6" alt="" /></span>
+                    <div>
+                      <p>contact@arindo.net</p>
+                      <p>mail.arindo@gmail.com</p>
+                    </div>
+                  </li>
+                  <li class="border-b-2 py-2 sm:hidden"></li>
+                </ul>
+              </div>
+              <div class="w-full px-6 py-4 sm:w-1/2 md:w-1/4">
+                <p class="py-1 text-lg font-semibold">Perusahaan</p>
+                <ul>
+                  <li class="py-1 text-sm font-light"><a href="">Tentang Arindo</a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Hubungi Kami</a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Informasi</a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Privasi</a></li>
+                  <li class="border-b-2 py-2 sm:hidden"></li>
+                </ul>
+              </div>
+              <div class="w-full px-6 py-4 sm:w-1/2 md:w-1/4">
+                <p class="py-1 text-lg font-semibold">Aplikasi</p>
+                <ul>
+                  <li class="py-1 text-sm font-light"><a href="">Info Token</a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Peluang Usaha</a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Pendaftaran Teknisi Listrik </a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Download</a></li>
+                  <li class="py-1 text-sm font-light"><a href="">Tutorial</a></li>
+                  <li class="border-b-2 py-2 sm:hidden"></li>
+                </ul>
+              </div>
+              <div class="w-full px-6 py-4 sm:w-1/2 md:w-1/4">
+                <p class="py-1 text-lg font-semibold">Ikuti Kami</p>
+                <ul class="flex flex-wrap gap-3">
+                  <li class="py-1 text-sm font-light">
+                    <a href=""><img src="dist/img/icon-footer/fb.png" class="h-5 w-5 sm:h-6 sm:w-6" alt="" /></a>
+                  </li>
+                  <li class="py-1 text-sm font-light">
+                    <a href=""><img src="dist/img/icon-footer/ig.png" class="h-5 w-5 sm:h-6 sm:w-6" alt="" /></a>
+                  </li>
+                  <li class="py-1 text-sm font-light">
+                    <a href=""><img src="dist/img/icon-footer/yt.png" class="h-5 w-5 sm:h-6 sm:w-6" alt="" /> </a>
+                  </li>
+                  <li class="w-full border-b-2 py-2 sm:hidden"></li>
+                </ul>
+              </div>
+
+              <div class="w-full px-6 py-4 text-center sm:border-t-2">
+                <p class="text-base font-light">&copy; 2022 <span class="font-semibold">PT Arindo Pratama.</span> All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

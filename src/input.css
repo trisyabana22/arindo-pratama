@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-primary-blue {
+  background: linear-gradient(107.79deg, #527ce9 15.5%, #2e41ed 103.41%);
+} */
+.navbar-fixed {
+  @apply fixed  z-[999999999] bg-opacity-70 backdrop-blur-sm;
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.2);
+}
